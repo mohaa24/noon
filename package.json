@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 8080",
+    "database":"json-server --watch db.json",
     "build": "next build",
     "start": "next start"
   },
