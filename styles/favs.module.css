@@ -1,0 +1,13 @@
+.title {
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  @media (min-width:600px){
+    .title{
+      padding-top: 135px;
+
+    }
+  }

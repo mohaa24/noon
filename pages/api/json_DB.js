@@ -1,0 +1,106 @@
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+
+let str = [
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "lenbret",
+    "avatar":"/user1.jpg",
+    "img":"/img1.jpg",
+    "tags":"",
+    "discription":"Lorem ipsum dolor,",
+    "comments":"21",
+    "liked":"y",
+    "likes":"12"
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Ervanton",
+    "avatar":"/user2.jpg",
+    "img":"/img2.jpg",
+    "tags":"",
+    "discription":"!!",
+    "comments":"3",
+    "liked":"0",
+    "likes":"12"
+
+  },
+  {
+    "id": 3,
+    "name": "Ervin Howell",
+    "username": "cute.as.ducks",
+    "avatar":"/user3.jpg",
+    "img":"/img3.jpg",
+    "tags":"",
+    "discription":"sdfsd.",
+    "comments":"23",
+    "liked":"0",
+    "likes":"12"
+
+  },
+  {
+    "id": 4,
+    "name": "Ervin Howell",
+    "username": "casanova",
+    "avatar":"/user4.jpg",
+    "img":"/img4.jpg",
+    "tags":"",
+    "discription":"fasf fsaf fsdfsd e asda f...",
+    "comments":"54",
+    "liked":"0",
+    "likes":"12"
+
+  },
+  {
+    "id": 5,
+    "name": "Ervin Howell",
+    "username": "YellowSnowman",
+    "avatar":"/user5.jpg",
+    "img":"/img5.jpg",
+    "tags":"",
+    "discription":"asf asfa asdad tew asdsff.fasfsaf?",
+    "comments":"23",
+    "liked":"0",
+    "likes":"12"
+
+  },
+  {
+    "id": 6,
+    "name": "Ervin Howell",
+    "username": "anonymouse",
+    "avatar":"/user6.jpg",
+    "img":"/img6.jpg",
+    "tags":"",
+    "discription":"Lorem sadfsa sdd sdad as!",
+    "comments":"234",
+    "liked":"0",
+    "likes":"12"
+
+  },
+  {
+    "id": 7,
+    "name": "Ervin Howell",
+    "username": "magicschoolbusdropout",
+    "avatar":"/user1.jpg",
+    "img":"/img1.jpg",
+    "tags":"",
+    "discription":"",
+    "comments":"",
+    "liked":"0",
+    "likes":"12"
+
+  }
+]
+
+/*
+export default function( req: NextApiRequest, res:
+  NextApiResponse) {
+      res.json(str)
+  }
+  */
+
+  export default function handler(req, res) {
+    res.status(200).json(str)
+  }
